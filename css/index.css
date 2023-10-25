@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.color1{
+   background-image: url(../assets/bg-pattern-intro-mobile.svg);
+   background-position: center;
+   background-color: hsl(356, 100%, 66%);
+   padding-bottom: 8em;
+   border-bottom-left-radius: 3em;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.upperBox{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+
+}
+.heading1{
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+}
+.flexBox1{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 2em;
+}
+.free{
+    color: hsl(356, 100%, 66%);
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 1.5em;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: .3em .5em;
+}
+.learnmore{
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 1.5em;
+    padding: .3em .7em;
+    font-size: 16px;
+    font-weight: 500;
+}
+.design1{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.design2{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 170%;
+    text-align: center;
+}
+.lowerBox{
+    background-color: hsl(237, 23%, 32%);
+    background-image: url(../assets/bg-pattern-circles.svg);
+    border-top-right-radius: 3em;
+    background-size: cover;
+    border-bottom-left-radius: 3em;
+    margin-top: 2em;
+    padding-bottom: 3em;
+}
+.art1{
+    color: white;
+}
+.imageTop{
+    margin-top: 10em;
+}
+.nega{
+    margin-top: -18em;
+    padding-top: 15em;
+}
+.designCon{
+    font-size: 2em;
+}
+.Box1{
+    text-align: center;
+    line-height: 150%;
+    padding-bottom: 2em;
+    font-size: 14px;
+}
