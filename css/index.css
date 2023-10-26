@@ -17,6 +17,53 @@
     width: 80%;
     margin: 0 auto;
 }
+.desktop{
+    display: none;
+}
+@media (min-width:1024px) {
+    .wrapper{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktopNav{
+        display: flex;
+        gap: .5em;
+        align-items: center;
+    }
+    .home{
+        color: white;
+        text-decoration: none;
+        padding-left: 1.5em;
+    }
+    .contact1{
+        color: hsl(356, 100%, 66%);
+        border: 2px solid white;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 5px 5px;
+        border-radius: .2em;
+        background-color: white;
+    }
+    .desktopCon{
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid red;
+        align-items: center;
+    }
+    .desktopCon1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .product{
+        
+    }
+}
 .upperBox{
     display: flex;
     justify-content: space-between;
@@ -93,4 +140,32 @@
     line-height: 150%;
     padding-bottom: 2em;
     font-size: 14px;
+}
+.blackbackground{
+    background-color: hsl(240,10%,16%);
+    border-top-right-radius: 4em;
+    padding-bottom: 5em;
+    margin-top: 3em;
+}
+.imageSize{
+    width: 20%;
+    margin: 0 auto;
+    padding: 4em 0;
+}
+.flexCon{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+.product{
+    color: hsl(240,2%,79%);
+    text-decoration: none;
+    padding-bottom: 1em;
+    font-weight: 500;
+}
+.overview{
+    color: hsl(240,2%,79%);
+    text-decoration: none;
 }
