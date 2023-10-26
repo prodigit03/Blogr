@@ -46,29 +46,33 @@
         border: 2px solid white;
         text-decoration: none;
         font-size: 16px;
-        padding: 5px 5px;
+        padding: 5px 10px;
         border-radius: .2em;
         background-color: white;
+        border-radius: 1em;
     }
     .desktopCon{
         display: flex;
         justify-content: space-between;
-        border: 2px solid red;
         align-items: center;
     }
     .desktopCon1{
         display: flex;
         justify-content: space-between;
     }
-    .product{
-        
+    .flexCon2{
+      display: flex;  
+      width: 100%;
+    }
+    .Con1{
+        width: 70%;
     }
 }
 .upperBox{
     display: flex;
     justify-content: space-between;
     padding-top: 2em;
-
+    width: 100%;
 }
 .heading1{
     color: white;
@@ -100,6 +104,20 @@
     font-size: 16px;
     font-weight: 500;
 }
+@media (min-width:1024px) {
+    .flexBox2{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .widthConc{
+        width: 65%;
+        margin-right: -8em;
+    }
+    .widthConb{
+        width: 50%;
+    }
+}
 .design1{
     padding-top: 2em;
     padding-bottom: 1em;
@@ -122,11 +140,29 @@
     margin-top: 2em;
     padding-bottom: 3em;
 }
+@media (min-width:1024px) {
+    .lowerBox{
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+}
 .art1{
     color: white;
 }
+@media (min-width:1024px) {
+    .art1{
+        width: 40%;
+       margin-left: 30em;
+    }
+}
 .imageTop{
     margin-top: 10em;
+}
+@media (min-width:1024px) {
+    .imageTop{
+    width: 40%;
+    margin-bottom: -30em;
+}
 }
 .nega{
     margin-top: -18em;
@@ -147,10 +183,25 @@
     padding-bottom: 5em;
     margin-top: 3em;
 }
+@media (min-width:1024px) {
+    .two2{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 4em;
+    }
+}
 .imageSize{
     width: 20%;
     margin: 0 auto;
     padding: 4em 0;
+}
+@media (min-width:1024px) {
+    .imageSize{
+        width: 10%;
+        margin: 0;
+        padding: 0;
+    }
 }
 .flexCon{
     display: flex;
@@ -165,7 +216,21 @@
     padding-bottom: 1em;
     font-weight: 500;
 }
+@media (min-width:1024px) {
+    .product{
+    font-size: 18px;
+    }
+}
 .overview{
     color: hsl(240,2%,79%);
     text-decoration: none;
+}
+@media (min-width:1024px) {
+    .widthCond{
+        width: 95%;
+        margin-left: -12em;
+    }
+    .centerone{
+        align-items: center;
+    }
 }
